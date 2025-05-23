@@ -1,0 +1,85 @@
+/* pages/Cadastro/styles.css */
+
+.pagina-cadastro {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.logo-real {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.form-cadastro {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-cadastro div {
+  margin-bottom: 15px;
+}
+
+.form-cadastro label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-cadastro input,
+.form-cadastro select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-cadastro button {
+  background-color: #003580;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-cadastro button:hover {
+  background-color: #0050b3;
+}
+
+.btn-toggle-lista {
+  background-color: #007700;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-toggle-lista:hover {
+  background-color: #005500;
+}
+
+.lista-jogadores {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.item-jogador {
+  background-color: #e9f0ff;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 8px;
+}
